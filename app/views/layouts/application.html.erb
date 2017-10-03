@@ -8,7 +8,12 @@
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
-  <body>
+  <body class="w3-containter w3-light-blue">
+    <div>
+      <a href="/users" class = "w3-bar-item w3-button">Users</a>
+      <a href="/microposts" class = "w3-bar-item w3-button">microposts</a>
+      <a href="/my_pages/home" class = "w3-bar-item w3-button">My pages</a>
+    </div>
     <%= yield %>
   </body>
 </html>
